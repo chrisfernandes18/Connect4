@@ -1,6 +1,6 @@
 # Connect4
 
-Connect 4 the game with a GUI, which can have a two human players, or a human against a bot.
+Connect 4 the game with a GUI, which can have a two human players, or a human against a bot. The bot uses the minimax algorithm with alpha-beta pruning to make decision. It can run up to a 3 ply tree well, but needs optimization to be able to run more ply trees.
 
 ### Required Python Modules
 Requires two third party modules:
