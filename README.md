@@ -13,6 +13,7 @@ Once the modules are installed, enter the directory whcih contains the scripts i
 
 ---
 `python3 main.py`
+
 ---
 
 A window will open, up and will guide you into setting up the game, and then you can click away.
