@@ -12,7 +12,7 @@ Requires two third party modules:
 Once the modules are installed, enter the directory whcih contains the scripts in the terminal, and run the main.py file.
 
 ---
-`python3 main.py`
+`$ python3 main.py`
 
 ---
 
