@@ -19,4 +19,4 @@ Once the modules are installed, enter the directory whcih contains the scripts i
 A window will open, up and will guide you into setting up the game, and then you can click away.
 
 ### Coming Soon
-Keyboard inputs to restart game, bot v. bot bug fix.
+Keyboard inputs to restart game, bot v. bot needs optimization.
