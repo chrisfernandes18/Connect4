@@ -41,10 +41,11 @@ def main():
             if event.type == pygame.MOUSEBUTTONDOWN:
                 worked = game.update_board(math.floor(event.pos[0] / PADDING))
                 screen = draw_game(game, worked)
-                if game.curr_player.strategy and not (game.winning_move(1) or game.winning_move(2)):
-                    col = game.curr_player.strategy.minimaxstrategy(game)
-                    worked = game.update_board(col)
-                    screen = draw_game(game, worked)
+
+            if game.curr_player.strategy and not (game.winning_move(1) or game.winning_move(2)):
+                col = game.curr_player.strategy.minimaxstrategy(game)
+                worked = game.update_board(col)
+                screen = draw_game(game, worked)
 
     pygame.time.wait(3000)
 
